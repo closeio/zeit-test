@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
+          cd ui
           npm run lint
           npm run test
   deploy:
