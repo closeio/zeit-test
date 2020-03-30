@@ -1,0 +1,9 @@
+{
+  "github": {
+    "enabled": false
+  },
+  "rewrites": [
+    { "source": "/api/v1/(.*)", "destination": "https://jsonplaceholder.typicode.com/$1" },
+    { "source": "/test-headers", "destination": "/api/test-headers" }
+  ]
+}
