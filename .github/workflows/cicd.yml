@@ -21,4 +21,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           now-org-id: ${{ secrets.ZEIT_NOW_ORG }}
           now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
+          zeit-team-id: ${{ secrets.ZEIT_TEAM_ID }}
           working-directory: ./ui
